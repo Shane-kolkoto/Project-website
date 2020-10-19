@@ -1,0 +1,37 @@
+.wel{
+	background-color: #1e1e26;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-right: -32px;
+	padding: 70px;
+}
+
+.wel{
+	text-align: center;
+	font-size: 60px;
+    color: whitesmoke;
+    background:url(../img/logo.png) no-repeat left, #1e1e26 ;
+    background-blend-mode: color;
+}
+
+@import url(https://allfont.net/allfont.css?fonts=masked-marvel);
+
+
+.h1{
+    font-family: 'Masked Marvel';
+    font-size: 50px;
+    text-align: center;
+    line-height: 0;
+    letter-spacing: 0.464em;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#c0292b;
+    color: white;
+    text-align: center;
+    padding: 100px;
+  }
