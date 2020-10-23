@@ -1,0 +1,98 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	background: #d9d9d9;
+	font-family: Arial;
+}
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 800px;
+	height: 600px;
+	padding: 90px 50px;
+	background-color: #343840;
+	-webkit-box-shadow:2px 2px 4px 0 #f2e205;
+	-moz-box-shadow:2px 2px 4px 0 #f2e205;
+	-o-box-shadow:2px 2px 4px 0 #f2e205;
+	-ms-box-shadow:2px 2px 4px 0 #f2e205;
+	box-shadow: 2px 2px 4px 0 #f2e205;
+	overflow: auto;
+	color: #d9d9d9;
+}
+.container .tabs {
+	float: left;
+	width: 200px;
+	height: 100%;
+	border-right: 1px solid #343840;
+	padding: 50px 0px;
+}
+
+.container .tabs > div {
+	height: 90px;
+	line-height: 20px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #d9d9d9;
+	cursor: pointer;
+	padding-left: 8px;
+}
+.container .tabs > div:hover,
+.container .tabs > div.active {
+	color: #f2e205;
+}
+.container .tabs div i {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+.container .tab-content {
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+}
+
+.container .tab-content > div {
+	position: absolute;
+	text-align: justify;
+	line-height: 40px;
+	padding: 20px 10px;
+	top: -200%;
+}
+.container .tab-content > div.active {
+	top: 0px;
+}
+
+.container .tab-border {
+	position: absolute;
+	width: 4px;
+	height: 50px;
+	background: #343840;
+	left: 198px;
+	top: 80px;
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+	-ms-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+}
+
+.tabs a{
+	text-decoration: none;
+	color: white;
+}
+
+.home{
+	color:black;
+	text-decoration: none;
+}

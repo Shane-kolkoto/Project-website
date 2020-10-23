@@ -1,8 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+}
+
 .wel{
 	background-color: #1e1e26;
-	margin-bottom: 0px;
-	margin-top: 0px;
-	margin-right: -32px;
+	margin: 0%;
 	padding: 70px;
 }
 
@@ -23,15 +28,6 @@
     text-align: center;
     line-height: 0;
     letter-spacing: 0.464em;
+    margin: 30px;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:#c0292b;
-    color: white;
-    text-align: center;
-    padding: 100px;
-  }
