@@ -8,9 +8,23 @@
     <title>Marvel Web Contact</title>
   </head>
   <body>  
+    <div class="topnav">
+			<a class="active" href="index.html">Home</a>
+			<a href="about-us.html">About</a>
+			<a href="contact-us.html">Contact</a>
+			<a href="FAQ.html">FAQ</a>
+			<div class="login-container"> 
+			  <form action="/action_page.php">
+				<input type="text" placeholder="Username" name="username">
+				<input type="text" placeholder="Password" name="psw">
+				<button type="submit"><a hre="#">Login</a></button>
+				<button type="submit"><a hre="#">Create Account</a></button>
+			  </form>
+			</div>
+		</div> 
     <!--Contact-us-Form-->
     <div class="container">  
-      <form id="contact" action="" method="post">
+      <form class="contact" action="" method="post">
         <h3>Marvel Web</h3>
         <h4>Contact us</h4>
         <fieldset>
@@ -34,7 +48,7 @@
         <p class="copyright">Designed by <a href="about-us.html">Shane Kolkoto</a></p>
       </form>
     </div>
-  </body>
+  
     <!--Footer-->
     <footer class="footer-distributed">
 
@@ -86,4 +100,5 @@
       </div>		
       <p class="footer-company-name">© 2020 Marvel Website. Ltd.</p>
     </footer>
+  </body>
 </html>
